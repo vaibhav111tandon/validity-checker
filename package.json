@@ -1,4 +1,15 @@
 {
     "name": "validity-checker",
-    "version": "2.0.0"
+    "version": "2.0.2",
+    "description": "Check the validity of various numbers",
+    "license": "MIT",
+    "repository": "vaibhav111tandon/validity-checker",
+    "main": "index.js",
+    "keywords": [
+        "validity",
+        "validity-checker",
+        "checker",
+        "npm",
+        "package"
+    ]
 }
