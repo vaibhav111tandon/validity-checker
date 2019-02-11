@@ -117,9 +117,17 @@ module.exports = {
             return false;
         }
     },
-    isMacAddress: function(){
+    isMacAddress: function(macAddress){
         var re=/^(?:[[:xdigit:]]{2}([-:]))(?:[[:xdigit:]]{2}\1){4}[[:xdigit:]]{2}$/;
-        if(re.test(url)){
+        if(re.test(macAddress)){
+            return true;
+        }else{
+            return false;
+        }
+    },
+    isInternationalPassportNumber: function(passport){
+        var re=/^[A-Z0-9<]{9}[0-9]{1}[A-Z]{3}[0-9]{7}[A-Z]{1}[0-9]{7}[A-Z0-9<]{14}[0-9]{2}$/;
+        if(re.test(passport)){
             return true;
         }else{
             return false;
