@@ -52,6 +52,7 @@ returns true or false
   **isValidUrl()**                   | Returns true if the string is a valid url (including ftp, https, smtp)
   **isHexColorCode()**               | Returns true if the string is a valid hex color code
   **isInternationalPassportNumber()**| Returns true if the string is a valid international passport number
+  **isIMEINumber()**                 | Returns true if the number is a valid IMEI number 
   
  ## Note
   The above mentioned functions validating only the format of the card numbers not the real card numbers.
