@@ -1,6 +1,6 @@
 {
     "name": "validity-checker",
-    "version": "2.1.4",
+    "version": "2.2.0",
     "description": "Check the validity of various numbers",
     "license": "MIT",
     "repository": "vaibhav111tandon/validity-checker",

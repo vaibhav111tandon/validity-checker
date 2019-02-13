@@ -1,5 +1,5 @@
 # validity-checker
-[![npm](https://img.shields.io/badge/npm-v2.1.4-blue.svg)](https://www.npmjs.com/package/validity-checker)
+[![npm](https://img.shields.io/badge/npm-v2.2.0-blue.svg)](https://www.npmjs.com/package/validity-checker)
 
 ### Various types of functions to check the validity of various types of numbers and addresses.
 
@@ -47,14 +47,18 @@ returns true or false
   **isCardNumber()**                 | Returns true if the string is in any of the above card formats
   **isStrongPassword()**             | Returns true if the password is strong
   **isMediumStrengthPassword()**     | Returns true if the password is neither too strong nor too weak
-  **isPortNumber()**                 | Returns true if the string is valid Port number (except 0 )
+  **isPortNumber()**                 | Returns true if the string is valid Port number (except 0)
   **isMacAddress()**                 | Returns true if the string is a valid MAC Address
   **isValidUrl()**                   | Returns true if the string is a valid url (including ftp, https, smtp)
   **isHexColorCode()**               | Returns true if the string is a valid hex color code
   **isInternationalPassportNumber()**| Returns true if the string is a valid international passport number
   **isIMEINumber()**                 | Returns true if the number is a valid IMEI number 
   **isUUIDv4()**                     | Returns true if the entered string is uuid v4
-
+  **isUSSD()**                       | Returns true if the entered string is a valid USSD Code
+  **isBrainFuckCode()**              | Returns true if the entered string is a valid BrainFuck code
+  **isMorseCode()**                  | Returns true if the entered string is a valid Morse Code or not
+  **isIPV4()**                       | Returns true if the entered string is a valid IPv4
+  **isIPV6()**                       | Returns true if the entered string is a valid IPv4
 
  ## Note
   The above mentioned functions validating only the format of the card numbers not the real card numbers.
