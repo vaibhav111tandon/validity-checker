@@ -1,5 +1,5 @@
 # validity-checker
-[![npm](https://img.shields.io/badge/npm-v2.0.0-blue.svg)](https://www.npmjs.com/package/validity-checker)
+[![npm](https://img.shields.io/badge/npm-v2.1.4-blue.svg)](https://www.npmjs.com/package/validity-checker)
 
 ### Various types of functions to check the validity of various types of numbers and addresses.
 
@@ -53,7 +53,9 @@ returns true or false
   **isHexColorCode()**               | Returns true if the string is a valid hex color code
   **isInternationalPassportNumber()**| Returns true if the string is a valid international passport number
   **isIMEINumber()**                 | Returns true if the number is a valid IMEI number 
-  
+  **isUUIDv4()**                     | Returns true if the entered string is uuid v4
+
+
  ## Note
   The above mentioned functions validating only the format of the card numbers not the real card numbers.
  
