@@ -137,7 +137,6 @@ module.exports = {
         if (typeof (number) === 'number') {
             
             if (number.toString().length !== 15){
-                console.log("Length");
                 return false;
             }
             else {
@@ -146,15 +145,12 @@ module.exports = {
                     var d = number % 10;
                     if (index % 2 === 0)
                         d = 2 * d;
-                    console.log(d);
                     sum += sumOfDigit(d);
                     number = Math.floor(number / 10);
                 }
-                console.log(sum);
                 return (sum%10 === 0);
             }
         } else {
-            console.log("Type");
             return false;
         }
         function sumOfDigit(num) {
