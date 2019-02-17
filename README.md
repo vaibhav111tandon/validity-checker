@@ -1,5 +1,5 @@
 # validity-checker
-[![npm](https://img.shields.io/badge/npm-v2.2.0-blue.svg)](https://www.npmjs.com/package/validity-checker)
+[![npm](https://img.shields.io/badge/npm-v2.2.2-blue.svg)](https://www.npmjs.com/package/validity-checker)
 
 ### Various types of functions to check the validity of various types of numbers and addresses.
 
