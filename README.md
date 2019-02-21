@@ -1,5 +1,5 @@
 # validity-checker
-[![npm](https://img.shields.io/badge/npm-v2.2.2-blue.svg)](https://www.npmjs.com/package/validity-checker)
+[![npm](https://img.shields.io/badge/npm-v2.2.3-blue.svg)](https://www.npmjs.com/package/validity-checker)
 
 ### Various types of functions to check the validity of various types of numbers and addresses.
 
@@ -24,6 +24,23 @@ returns true or false
 var result = validityChecker.isMobileNumber("9999999999");
 ```
 returns true or false
+
+### 3. isBetweenDoubleQuotes()
+```javascript
+var result = validityChecker(isBetweenDoubleQuotes('Hello.. "Everybody"',"Everybody"));
+
+/* returns true 
+
+checks according to the case sensitivity
+
+*/
+```
+
+### 4. isEmoji()
+```javascript
+var result = validityChecker(isEmoji("🙃🙃"));
+/* returns true */
+```
 
 #### Can be able to check following patterns
   - (123) 456-7890
@@ -59,6 +76,8 @@ returns true or false
   **isMorseCode()**                  | Returns true if the entered string is a valid Morse Code or not
   **isIPV4()**                       | Returns true if the entered string is a valid IPv4
   **isIPV6()**                       | Returns true if the entered string is a valid IPv4
+  **isBetweenDoubleQuotes()**        | Returns true if the entered string is contained in between double quotes
+  **isEmoji()**                      | Returns true if the entered string is an Emoji
 
  ## Note
   The above mentioned functions validating only the format of the card numbers not the real card numbers.

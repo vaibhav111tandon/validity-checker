@@ -209,6 +209,23 @@ module.exports = {
         }else{
             return false;
         }
+    },
+    isBetweenDoubleQuotes: function(text, betweenText){
+        var re = /"([^']*)"/;
+        var actualText = re.exec(text);
+        if(betweenText.equals(actualText[1])){
+            return true;
+        }else{
+            return false;
+        }
+    },
+    isEmoji: function(text){
+        var re = /^\p{Emoji}+$/u;
+        if(re.test(text)){
+            return true;
+        }else{
+            return false;
+        }
     }
 
 }
