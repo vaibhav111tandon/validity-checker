@@ -1,5 +1,5 @@
 # validity-checker
-[![npm](https://img.shields.io/badge/npm-v2.2.3-blue.svg)](https://www.npmjs.com/package/validity-checker)
+[![npm](https://img.shields.io/badge/npm-v2.2.3-blue.svg)](https://www.npmjs.com/package/validity-checker) [![Join the chat at https://gitter.im/validity-checker/community](https://badges.gitter.im/validity-checker/community.svg)](https://gitter.im/validity-checker/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ### Various types of functions to check the validity of various types of numbers and addresses.
 
