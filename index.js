@@ -226,6 +226,15 @@ module.exports = {
         }else{
             return false;
         }
+    },
+
+    isIndianVehicleNumber: function(vehicleNumber){
+       const re = /^[[A-Z]{2}[0-9]{2}[A-Z]{2}[0-9]{4}/
+       if(re.test(vehicleNumber)){
+        return true
+       }else{
+        return false
+       }
     }
 
 }
